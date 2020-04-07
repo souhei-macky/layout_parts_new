@@ -2,4 +2,47 @@
 
 /* 回答はここに書いてね */
 
+.speak {
+  width: 500px;
+  line-height: 16px;
+  margin: 0 auto;
+  border: solid 5px #222;
+  padding: 20px;
+  border-radius: 30px ;
+  position: relative;
+}
+
+.speak:before {
+  content: "";
+  position: absolute;
+  bottom: -38px;
+  left: 30px;
+  z-index: 2; 
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #fff;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
+
+.speak:after {
+  content: "";
+  position: absolute;
+  bottom: -45px;
+  left: 30px;
+  z-index: 1;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #222;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
+
+
+
 /* 回答はここに書いてね */
+
