@@ -6,7 +6,6 @@
   margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
-  /* display: flex; */
 }
 
 .clearfix:after {
@@ -21,6 +20,10 @@
   width: 230px;
   float: left;
   margin-left: 20px;
+}
+
+.q1__content__box:first-child {
+  margin-left: 0;
 }
 
 .q1__content__text {

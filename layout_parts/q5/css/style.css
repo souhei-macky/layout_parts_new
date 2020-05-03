@@ -3,11 +3,10 @@
 /* 回答はここに書いてね */
 
 .q5 {
-  width: 420px;
-  height: 420px;
+  width: 500px;
+  height: 500px;
   background-color: #ECF1F2;
   margin: 0 auto;
-  padding: 40px;
   position: relative;
 }
 
@@ -20,8 +19,6 @@
   font-weight: bold;
   font-size: 32px;
 }
-
-
 
 .num__8 {
   z-index: 8;
@@ -37,7 +34,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #ffdfd3;
+  background-color: #ffefd3;
 }
 
 .num__5 {
@@ -51,7 +48,7 @@
   z-index: 1;
   top: 40px;
   left: 200px;
-  background-color: #ffdfd3;
+  background-color: #ffefd3;
 }
 
 .num__7 {

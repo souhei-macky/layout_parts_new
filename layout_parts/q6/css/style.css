@@ -2,12 +2,19 @@
 
 /* 回答はここに書いてね */
 
-.text-align {
+.q6__box > div, .is-margin {
   text-align: center;
   margin: 0 auto;
+}
+
+.q6__box__text {
   padding: 10px 0;
   width: 90px;
   background-color: #e6f2ff;
+}
+
+.is-align {
+  display: inline-block;
 }
 
 .q6__table {
@@ -17,7 +24,6 @@
 .q6__table__box {
   display: table-cell;
   vertical-align: middle;
-  background-color: #ECF1F2;
   text-align: center;
 }
 
@@ -38,7 +44,7 @@
   padding: 10px;
 }
 
-.q6--position .q6__box {
+.q6__box {
   position: relative;
 }
 
