@@ -4,7 +4,7 @@
 
 .speak {
   width: 500px;
-  line-height: 16px;
+  /* line-height: 16px; */
   margin: 0 auto;
   border: solid 5px #222;
   padding: 20px;

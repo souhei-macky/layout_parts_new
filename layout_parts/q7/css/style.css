@@ -17,9 +17,10 @@
 }
 
 .float {
-  width: 200px;
+  width: 225px;
   float: left;
   margin-left: 50px;
+  box-sizing: border-box;
 }
 
 .tables {
@@ -60,7 +61,8 @@
 }
 
 .flex__box {
-  width: 205px;
+  width: 225px;
+  box-sizing: border-box;
 }
 
 .full {
