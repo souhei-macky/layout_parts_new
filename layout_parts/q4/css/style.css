@@ -22,6 +22,7 @@
   display: table-cell;
   text-align: center;
   padding: 20px;
+  vertical-align: middle;
 }
 
 .pink {
