@@ -15,6 +15,7 @@
 }
 
 .q8__img__point {
+  vertical-align: top;
   transition: all .5s;
 } 
 
@@ -26,6 +27,7 @@
   height: 100%;
   left: 0;
   bottom: -100%;
+  text-align: left;
 } 
 
 .q8__img__desc__text {
