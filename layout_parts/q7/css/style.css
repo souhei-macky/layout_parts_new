@@ -8,8 +8,10 @@
   clear: both;
 }
 
-.q7 .q7__box {
+.q7__box {
   font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
 }
 
 .float:first-child {
@@ -17,10 +19,8 @@
 }
 
 .float {
-  width: 225px;
   float: left;
   margin-left: 50px;
-  box-sizing: border-box;
 }
 
 .tables {
@@ -29,24 +29,22 @@
 
 .table {
   display: table-cell;
-  width: 225px;
   vertical-align: middle;
   padding-left: 50px;
+  box-sizing: unset;
 }
 
 .table:first-child {
   padding-left: 0;
 }
 
-.base {
+.init {
   font-size: 0;
 }
 
 .inline {
   display: inline-block;
-  width: 225px;
   margin-left: 50px;
-  box-sizing: border-box;
   vertical-align: middle;
 }
 
@@ -60,15 +58,6 @@
   align-items: flex-end;
 }
 
-.flex__box {
-  width: 225px;
-  box-sizing: border-box;
-}
-
-.full {
-  font-size: 0;
-}
-
 .fixed {
   display: inline-block;
   width: 300px;
@@ -80,7 +69,6 @@
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
-  box-sizing: border-box;
 }
 
 /* 回答はここに書いてね */

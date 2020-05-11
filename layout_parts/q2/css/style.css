@@ -14,17 +14,17 @@
   padding: 20px;
 }
 
-.left {
+.q2__left {
   float: left;
   margin-right: 20px;
 }
 
-.right {
+.q2__right {
   float: right;
   margin-left: 20px;
 }
 
-.img {
+.q2__img {
   margin-bottom: 10px;
 }
 

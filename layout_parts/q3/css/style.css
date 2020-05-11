@@ -22,15 +22,11 @@ td {
   border: 1px solid #dedede;
 }
 
-tbody tr:last-child {
+tfoot tr {
    border-top: 2px dashed #000;
 }
 
-tr:nth-child(2) {
-  background-color: #ecf1f2;
-}
-
-tr:nth-child(4) {
+tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
